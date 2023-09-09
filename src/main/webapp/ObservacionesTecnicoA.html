@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Tecnico Administrativo</title>
+<!-- Link Boostrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<style>
+	.modal-header{
+		color:#fff;
+		background: #428bca;
+		display: flex;
+  		justify-content: center;
+  		
+	}
+	.help-block {
+	  		color: red;
+	}
+	.form-group.has-error .form-control-label {
+	  color: red;
+	}
+	.form-group.has-error .form-control {
+	  border: 1px solid red;
+	  box-shadow: 0 0 0 0.2rem rgba(250, 16, 0, 0.18);
+	}
+	/*Inicio Estilos Footer*/
+	footer{
+	padding: 5rem;
+	}
+	footer a{
+	color:  rgb(19, 43, 111);
+	font-size: 0.9rem;
+	}
+	footer img{
+	width: 200px;
+	
+	height: 100px
+	}
+	footer h6{
+	font-size:1rem;
+	color: rgb(1, 18, 66);
+	}	
+	/*Fin Estilos Footer*/
+</style>
+<body>
+	<!-- Section Header -->
+	<header class="bg-primary text-white">
+	  <div class="container py-3">
+	    <h1 class="text-center">Hay Observaciones?</h1>
+	  </div>
+	</header>
+	<!-- Fin section Header -->	
+	<hr><br/>
+	
+	<!-- Boton de RSG -->
+	<div class="container">
+		<div class="d-flex justify-content-center mb-3">
+			<a href="DocumentInpugnatorio.jsp" class="btn btn-success" target="blanñ">Espera de Recurso Impugnatorio</a>
+		</div>
+		<div class="text-center">
+			<h3 class="">Archivo Provicional de la SGC</h3>
+			<p>Si el Proceso precenta observaciones pasa A la espera de <br/><strong>Recurso Impugnatorio</strong></p>
+		</div> 
+	</div>
+	<!-- Fin Boton de RSG -->
+	<hr><br/>
+	<!-- Boton de RLIC -->
+	<div class="container">
+		<div class="d-flex justify-content-center mb-3">
+			<a href="#" class="btn btn-success">Escanear Documento</a>
+		</div>
+		<div class="text-center">
+			<h3 class="">Se deriva a SGC</h3>
+			<p>Si el Proceso NO tiene observaciones Pasa a Actualizar Base de Datos y<br/><strong>Escanear Documento</strong></p>
+		</div>
+	</div>
+	<hr>
+	<!-- Fin Boton de RSG -->
+
+	<!-- INICIO FOOTER -->
+	<footer class="footer d-print-none" style="--bgImgURL:url('https://www.munlima.gob.pe/wp-content/themes/mml/assets/images/bg_footer.jpg');">
+		<div class="container">
+	    	<div class="row">
+	      		<div class="col-md-3">
+	<!-- Inicio Footer Imagen-->
+	        		<div class="mb-4">
+	          			<a href="#" >
+	          				<img width="512" height="212" src="img/Muni-lima.png" >
+	          			</a>
+	          		</div>
+	<!-- Fin Footer Imagen -->
+
+	      		</div>
+	
+	<!-- Inicio Footer Enlaces -->
+				<div class="col-md-4">
+					<h6 class="mb-3">ENLACES IMPORTANTES</h6>
+				  		<ul class="list-unstyled">
+						    <li><a href="#" class="text-decoration-none ">Visita Lima</a></li>
+						    <li><a href="#" class="text-decoration-none ">Movilidad Urbana</a></li>
+						    <li><a href="#" class="text-decoration-none ">Seguridad Ciudadana</a></li>
+						    <li><a href="#" class="text-decoration-none">SMIA</a></li>
+						    <li><a href="#" class="text-decoration-none ">Parque de las leyendas</a></li>
+						    <li><a href="#" class="text-decoration-none ">Circuito Mágico del Agua</a></li>
+						    <li><a href="#" class="text-decoration-none ">Biblioteca Municipal</a></li>
+						    <li><a href="#" class="text-decoration-none ">EMMSA</a></li>
+						    <li><a href="#" class="text-decoration-none ">SAT</a></li>
+						    <li><a href="#" class="text-decoration-none ">SERPAT</a></li>
+				  		</ul>
+				</div>
+				
+		      	<div class="col-md-2">
+		        	<h6 class="mb-4">CONSULTAS EN LÍNEA</h6>
+				  		<ul class="list-unstyled">
+						    <li><a href="#" class="text-decoration-none ">SAT</a></li>
+						    <li><a href="#" class="text-decoration-none ">SISOL Salud</a></li>
+						    <li><a href="#" class="text-decoration-none ">Denuncias ambientales</a></li>
+						    <li><a href="#" class="text-decoration-none">Monitoreo de calidad de aire</a></li>
+						    <li><a href="#" class="text-decoration-none ">VIPA</a></li>
+						    <li><h6 class="mb-6">EMPLEOS Y CONTRATACIONES</h6></li>
+						    <li><a href="#" class="text-decoration-none ">Contrataciones CAS</a></li>
+				  		</ul>
+		      	</div>
+		      	
+		      	<div class="col-md-3">
+					<h6 class="mb-4">CONTACTO Y RECLAMOS</h6>
+				  		<ul class="list-unstyled">
+						    <li><a href="#" class="text-decoration-none ">Denuncias ante OCI</a></li>
+						    <li><a href="#" class="text-decoration-none ">Libro de reclamaciones</a></li>
+						    <li><a href="#" class="text-decoration-none ">Correo electrónico</a></li>
+						    <li><a href="#" class="text-decoration-none">Politica de Seguridad y Salud en el Trabajo</a></li>
+						    <li><a href="#" class="text-decoration-none ">Politica de seguridad</a></li>
+						    <li><a href="#" class="text-decoration-none ">Protección de datos personales</a></li>
+						    <li><a href="#" class="text-decoration-none ">Biblioteca Municipal</a></li>
+				  		</ul>
+		      </div>
+	<!-- Fin Footer Enlaces -->
+	  
+	<!-- Inicio Footer Direccion -->
+				<div class="text-center mt-1 mb-3">
+					<img src="img/ubicacion.png" alt="Ubicación" style="width: 15px; height: 15px">
+				  		<a class="text-decoration-none" href="https://goo.gl/maps/1V88hbtHebp5Tvi77" target="_blank" rel="noreferrer noopener">Jirón de la Unión 300 - Jirón Conde de Superunda 141 - Cercado de Lima</a><span>---</span>
+				  			<img src="img/telefono.png" alt="Teléfono" style="width: 15px; height: 15px">
+				  				<span class="screen-reader-text">Telefono</span> 
+				  					<a class="text-decoration-none" href="tel:016321300">632-1300</a>
+				</div>
+	<!-- Fin Footer Direccion -->
+
+	</div>
+	</div>
+	</footer>
+
+
+</body>
+</html>
