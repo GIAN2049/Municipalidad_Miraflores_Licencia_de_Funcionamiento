@@ -2,9 +2,10 @@
 Proyecto del curso de Lenguaje de Programacion II (LPII)
 
 #Herramientas usadas
-- SPRING-BOOT
-- JPA
+- JAVA
+- JSP
 - MYSQL
 - BOOTSTRAP
 - JQUERY
-- THYMELEAF
+- JDBC
+- PATRON DAO
